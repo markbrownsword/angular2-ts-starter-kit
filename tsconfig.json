@@ -9,8 +9,10 @@
     "module": "commonjs",
     "noLib": false
   },
-  "files": [
-    "./src/typings/tsd.d.ts",
-    "./src/app/boot.ts"
+  "compileOnSave": false,
+  "exclude": [
+    "node_modules",
+    "typings/main",
+    "typings/main.d.ts"
   ]
 }
